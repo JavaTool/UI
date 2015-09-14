@@ -38,6 +38,8 @@ public interface WidgetEvent {
 	
 	int getType();
 	
+	int getButton();
+	
 	Widget getWidget();
 
 }
