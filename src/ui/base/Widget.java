@@ -22,7 +22,7 @@ public interface Widget extends UIElement {
 	
 	void fitSize();
 	
-	boolean handleWidgetEvent(int x, int y, int type, int button);
+	boolean handleWidgetEvent(WidgetEvent widgetEvent);
 	
 	boolean getEnable();
 	
