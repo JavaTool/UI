@@ -1,7 +1,5 @@
 package ui.base;
 
-import ui.base.Container;
-
 public interface Grid extends Container {
 	
 	void setSize(int size);
