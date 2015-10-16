@@ -1,5 +1,7 @@
 package ui.base;
 
+import ui.base.WidgetEvent.EventType;
+
 public interface Widget extends UIElement {
 	
 	byte STATE_NORMAL = 0;
@@ -18,7 +20,7 @@ public interface Widget extends UIElement {
 	
 	void removeAllRegion();
 	
-	Widget in(int x, int y, int type);
+	Widget in(int x, int y, EventType type);
 	
 	void fitSize();
 	

@@ -23,12 +23,18 @@ public interface WidgetEvent {
 		EVENT_KEY_PRESSED,
 
 		EVENT_KEY_RELEASED,
+		
+	}
+	
+	public enum ButtonType {
 
-		EVENT_MOUSE_RIGHT,
+		BUTTON_MOUSE_RIGHT,
 
-		EVENT_MOUSE_MIDDLE,
+		BUTTON_MOUSE_MIDDLE,
 
-		EVENT_MOUSE_LEFT;
+		BUTTON_MOUSE_LEFT,
+
+		BUTTON_NULL;
 		
 	}
 	
@@ -36,9 +42,9 @@ public interface WidgetEvent {
 	
 	int getY();
 	
-	int getType();
+	EventType getType();
 	
-	int getButton();
+	ButtonType getButton();
 	
 	Widget getWidget();
 
