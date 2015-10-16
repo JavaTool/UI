@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ui</groupId>
   <artifactId>UI</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>用户界面包</name>
   <build>
     <sourceDirectory>src</sourceDirectory>
